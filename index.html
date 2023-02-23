@@ -1,1018 +1,989 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Meta -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<!-- Favicons -->
-<link rel="shortcut icon" href="assets/img/favicon.png">
-<link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
-
-<!-- Title -->
-<title>Ja - Advanced Personal Resume / CV vCard Template</title>
-
-<!-- CSS Plugins -->
-<link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css" />
-<link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css" />
-<link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css" />
-
-<!-- CSS Icons -->
-<link rel="stylesheet" href="assets/css/themify-icons.css" />
-<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
-
-<!-- CSS Base -->
-<link id="theme" rel="stylesheet" href="assets/css/themes/theme-blue.min.css" />
-
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- set the page title -->
+	<title>Scavvios | One Page Parallax HTML5 Template</title>
+	<!-- inlcude google poppins font cdn link -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<!-- include the site bootstrap stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<!-- include theme color setting stylesheet -->
+	<link rel="stylesheet" href="css/colors.css">
+	<!-- include the site responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
-
-<body class="navigation-panel page-scrolling dark-scheme">
-
-<!-- Loader -->
-<div id="page-loader">
-    <svg class="loader" viewBox="0 0 28 28">
-        <circle cx="14" cy="14" r="12" stroke-width="2"></circle>
-    </svg>
-</div>
-
-<!-- Navigation -->
-<nav id="navigation" class="navigation-panel dark">
-
-    <div class="navigation-inner">
-        <!-- Navigation Primary -->
-        <ul class="nav nav-primary-panel">
-            <li class="nav-item"><a href="#start" class="nav-link">Start</a></li>
-            <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
-            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="#blog" class="nav-link">Latest Posts</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-    </div>
-    
-</nav>
-<!-- Navigation / End -->
-
-<!-- Navigation Toggle -->
-<a id="navigation-toggle" class="nav-toggle"><span></span><span></span><span></span><span></span></a>
-
-<!-- Content -->
-<div id="content">
-
-    <!-- Section - Start -->
-    <section id="start" class="section section-home-basic fullheight dark bg-dark" data-scheme="dark" data-local-scroll>
-        
-        <!-- BG Image -->
-        <div class="bg-image-container"><img src="assets/img/photos/developer/home.jpg" alt=""></div>
-
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container-wide" data-local-scroll>
-                <div class="row align-items-center">
-                    <div class="col-xl-7 col-10">
-                        <h1 class="mb-0"><span class="typing">Hi! I’m <strong>Marcus Nowak</strong> - experienced Front-End Developer from Poland…</span><a href="#resume" class="btn-go show-after-typing ml-4"><i class="fa fa-angle-down"></i></a></h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Points -->
-        <div class="points-container">
-            <!-- Point -->
-            <a href="#resume" class="point" data-x="30%" data-y="15%">
-                <span class="point-indicator">
-                    <svg class="point-indicator-circle" viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="23" stroke-width="2"></circle>
-                    </svg>
-                    <span class="point-indicator-hover"></span>
-                    <svg class="point-indicator-plus" viewBox="0 0 48 48">
-                        <path d="M24,24 v-10 v20" stroke-width="2"></path>
-                        <path d="M24,24 h-10 h20" stroke-width="2"></path>
-                    </svg>
-                </span>
-                <span class="point-title">Check out my skills!</span>
-            </a>
-            <!-- Point -->
-            <a href="#services" class="point" data-x="40%" data-y="40%">
-                <span class="point-indicator">
-                    <svg class="point-indicator-circle" viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="23" stroke-width="2"></circle>
-                    </svg>
-                    <span class="point-indicator-hover"></span>
-                    <svg class="point-indicator-plus" viewBox="0 0 48 48">
-                        <path d="M24,24 v-10 v20" stroke-width="2"></path>
-                        <path d="M24,24 h-10 h20" stroke-width="2"></path>
-                    </svg>
-                </span>
-                <span class="point-title">What can I do for you?</span>
-            </a>
-            <!-- Point -->
-            <a href="#portfolio" class="point" data-x="80%" data-y="50%">
-                <span class="point-indicator">
-                    <svg class="point-indicator-circle" viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="23" stroke-width="2"></circle>
-                    </svg>
-                    <span class="point-indicator-hover"></span>
-                    <svg class="point-indicator-plus" viewBox="0 0 48 48">
-                        <path d="M24,24 v-10 v20" stroke-width="2"></path>
-                        <path d="M24,24 h-10 h20" stroke-width="2"></path>
-                    </svg>
-                </span>
-                <span class="point-title">Look at my works!</span>
-            </a>
-        </div>
-
-    </section>
-
-    <!-- Section - Resume -->
-    <section id="resume" class="section" data-scheme="light">
-    
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container-slim">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content"><span class="typing">Here you will find my resume... </span></div>
-                </div>
-                <!-- Resume - About -->
-                <div class="resume-box">
-                    <p class="lead text-lg">I am 25 years old front-end developer from Nowy Sacz in Poland - in the busienss since 2008!</p>
-                    <p class="lead mb-5">Through my 5 years of my career I have been working for over 500 clients from all over the World. My speciality is webdesign and Angular development. I guarentee great communication and quick turnaround.</p>
-                </div>
-                <!-- Resume - Skills -->
-                <div class="resume-box image-edge row">
-                    <div class="col-md-8 push-md-4">
-                        <!-- Image -->
-                        <div class="image left">
-                            <img src="assets/img/items/coffee.png" alt="" class="animated" data-animation="fadeInLeft">
-                        </div>
-                        <h5 class="mb-5">Skills &amp; abilities</h5>
-                        <!-- Progress Bar -->
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                        <h6 class="mb-4">HTML &amp; CSS</h6>
-                        <!-- Progress Bar -->
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                        <h6 class="mb-4">LESS / SASS</h6>
-                        <!-- Progress Bar -->
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                        <h6 class="mb-4">JavaScript</h6>
-                        <!-- Progress Bar -->
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                        <h6 class="mb-4">AngularJS</h6>
-                        <!-- Progress Bar -->
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                <span>65%</span>
-                            </div>
-                        </div>
-                        <h6 class="mb-4">Webpack</h6>
-                    </div>
-                </div>
-                <!-- Resume - Education & Jobs -->
-                <div class="resume-box image-edge text-center">
-                    <h5 class="mb-5">Jobs &amp; Education</h5>
-                    <div class="row">
-                        <div class="col-md-10 push-md-1">
-                            <!-- Image -->
-                            <div class="image left">
-                                <img src="assets/img/items/docs.png" alt="" class="animated" data-animation="fadeInLeft">
-                            </div>
-                            <!-- Image -->
-                            <div class="image right">
-                                <img src="assets/img/items/plant2.png" alt="" class="animated" data-animation="fadeInRight"> 
-                            </div>
-                            <!-- Timeline -->
-                            <div class="timeline">
-                                <!-- Timeline Event -->
-                                <div class="timeline-event">
-                                    <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">10.2011 - 09.2014</div>
-                                    <div class="timeline-event-content">
-                                        <h5 class="timeline-event-title">IT Engineer</h5>
-                                        <span class="timeline-event-caption text-muted">University of Oxford</span>
-                                    </div>
-                                </div>
-                                <!-- Timeline Event -->
-                                <div class="timeline-event">
-                                    <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">11.2014 - 09.2016</div>
-                                    <div class="timeline-event-content">
-                                        <h5 class="timeline-event-title">Webdesigner &amp; Front-End Developer</h5>
-                                        <span class="timeline-event-caption text-muted">Freelancer</span>
-                                    </div>
-                                </div>
-                                <!-- Timeline Event -->
-                                <div class="timeline-event">
-                                    <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">09.2016 - 04.2017</div>
-                                    <div class="timeline-event-content">
-                                        <img src="assets/img/logotypes/envato.svg" width="90" class="mb-4" alt="">
-                                        <h5 class="timeline-event-title">Junior Front-End Developer</h5>
-                                        <span class="timeline-event-caption text-muted">Company Ltd.</span>
-                                    </div>
-                                </div>
-                                <!-- Timeline Event -->
-                                <div class="timeline-event">
-                                    <div class="timeline-event-point"></div>
-                                    <div class="timeline-event-date">04.2017 - </div>
-                                    <div class="timeline-event-content">
-                                        <h5 class="timeline-event-title">Senior Front-End Developer</h5>
-                                        <span class="timeline-event-caption text-muted">Company Inc.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Resume - Languages -->
-                <div class="resume-box image-edge row">
-                    <div class="col-md-7">
-                        <!-- Image -->
-                        <div class="image right">
-                            <img src="assets/img/items/ipad.png" alt="" class="animated" data-animation="fadeInRight">
-                        </div>
-                        <h5 class="mb-5">Languages</h5>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <!-- Chart -->
-                                <div class="single-chart">
-                                    <div class="chart" data-bar-color="#35A4F0" data-track-color="#EEEEEE" data-percent="100">
-                                        <div class="chart-content">
-                                            <span class="value"><span>5</span>/5</span>
-                                            <h6 class="title">Polish</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <!-- Chart -->
-                                <div class="single-chart">
-                                    <div class="chart" data-bar-color="#35A4F0" data-track-color="#EEEEEE" data-percent="80">
-                                        <div class="chart-content">
-                                            <span class="value"><span>4</span>/5</span>
-                                            <h6 class="title">English</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <!-- Chart -->
-                                <div class="single-chart">
-                                    <div class="chart" data-bar-color="#35A4F0" data-track-color="#EEEEEE" data-percent="40">
-                                        <div class="chart-content">
-                                            <span class="value"><span>2</span>/5</span>
-                                            <h6 class="title">German</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <!-- Chart -->
-                                <div class="single-chart">
-                                    <div class="chart" data-bar-color="#35A4F0" data-track-color="#EEEEEE" data-percent="20">
-                                        <div class="chart-content">
-                                            <span class="value"><span>1</span>/5</span>
-                                            <h6 class="title">Spanish</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Resume - Hobbies & Interests -->
-                <div class="resume-box image-edge text-center">
-                    <h5 class="mb-5">Hobbies &amp; Interests</h5>
-                    <!-- Image -->
-                    <div class="image left">
-                        <img src="assets/img/items/camera.png" alt="" class="animated" data-animation="fadeInLeft">
-                    </div>
-                    <!-- Hobby -->
-                    <div class="hobby">
-                        <div class="hobby-image">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby01.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-image-hover">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby01-hover.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-body">
-                            <div class="hobby-content">
-                                <h4 class="hobby-title">Motocross</h4>
-                                <span class="hobby-caption">Speed &amp; Adrenaline</span>
-                            </div>
-                            <button class="hobby-btn btn btn-youtube btn-sm"><i class="fa fa-youtube"></i>Check my YouTube</button>
-                        </div>
-                    </div>
-                    <!-- Hobby -->
-                    <div class="hobby">
-                        <div class="hobby-image">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby02.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-image-hover">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby02-hover.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-body">
-                            <div class="hobby-content">
-                                <h4 class="hobby-title">Music</h4>
-                                <span class="hobby-caption">Speed &amp; Adrenaline</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Hobby -->
-                    <div class="hobby">
-                        <div class="hobby-image">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby03.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-image-hover">
-                            <div class="bg-image-container"><img src="assets/img/photos/hobby03-hover.jpg" alt=""></div>
-                        </div>
-                        <div class="hobby-body">
-                            <div class="hobby-content">
-                                <h4 class="hobby-title">Snowboard</h4>
-                                <span class="hobby-caption">Speed &amp; Adrenaline</span>
-                            </div>
-                            <button class="hobby-btn btn btn-instagram btn-sm"><i class="fa fa-instagram"></i>Check my Instagram</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Resume - Clients -->
-                <div class="resume-box image-edge text-center">
-                    <h5 class="mb-5">My Clients</h5>
-                    <!-- Image -->
-                    <div class="image right">
-                        <img src="assets/img/items/book.png" alt="" class="animated" data-animation="fadeInRight">
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10 push-md-1">
-                            <ul class="spread-images">
-                                <li><a href="#"><img src="assets/img/logotypes/suelo.svg" alt="" class="gray-to-color"></a></li>
-                                <li><a href="#"><img src="assets/img/logotypes/envato.svg" alt="" class="gray-to-color"></a></li>
-                                <li><a href="#"><img src="assets/img/logotypes/html.svg" alt="" class="gray-to-color"></a></li>
-                                <li><a href="#"><img src="assets/img/logotypes/sass.svg" alt="" class="gray-to-color"></a></li>
-                            </ul>
-                            <div id="logotypes-more" class="collapse">
-                                <ul class="spread-images">
-                                    <li><a href="#"><img src="assets/img/logotypes/grunt.svg" alt="" class="gray-to-color"></a></li>
-                                    <li><a href="#"><img src="assets/img/logotypes/css.svg" alt="" class="gray-to-color"></a></li>
-                                    <li><a href="#"><img src="assets/img/logotypes/sketch.svg" alt="" class="gray-to-color"></a></li>
-                                </ul>
-                            </div>
-                            <button data-toggle="collapse" data-target="#logotypes-more" class="btn btn-toggle btn-primary btn-sm mt-4" aria-expanded="false">
-                                <span>View more</span>
-                                <span>View less</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Services -->
-    <section id="services" class="section section-slider fullheight dark border-top" data-scheme="dark">
-
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content"><span class="typing">What can I do for you?</span></div>
-                </div>
-            </div>
-            <!-- Slides -->
-            <div class="section-slides" data-local-scroll>
-                <!-- Slide -->
-                <div class="slide dark">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="display-4">PSD to HTML</h2>
-                                <p class="lead text-muted">Quick and proffesional HTML5 and CSS3 conversion based on current trends.</p>
-                                <a href="#pricing" class="btn btn-primary">Details &amp; Pricing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide -->
-                <div class="slide light">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="display-4">HTML to WordPress</h2>
-                                <p class="lead text-muted">Quick and proffesional HTML5 and CSS3 conversion based on current trends.</p>
-                                <a href="#pricing" class="btn btn-primary">Details &amp; Pricing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide -->
-                <div class="slide dark">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="display-4">AngularJS Development</h2>
-                                <p class="lead text-muted">Quick and proffesional HTML5 and CSS3 conversion based on current trends.</p>
-                                <a href="#pricing" class="btn btn-primary">Details &amp; Pricing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide -->
-                <div class="slide light">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="display-4">Front-End Development</h2>
-                                <p class="lead text-muted">Quick and proffesional HTML5 and CSS3 conversion based on current trends.</p>
-                                <a href="#contact" class="btn btn-primary">Get a quote!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section Backgrounds -->
-        <div class="section-bgs">
-            <div class="slide bg-dark">
-                <div class="image right col-md-6 push-md-6">
-                    <div class="bg-image-container">
-                        <img src="assets/img/photos/developer/service01.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="image right col-md-6 push-md-6">
-                    <div class="bg-image-container">
-                        <img src="assets/img/photos/developer/service02.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="slide bg-dark">
-                <div class="image right col-md-6 push-md-6">
-                    <div class="bg-image-container">
-                        <img src="assets/img/photos/developer/service03.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="image right col-md-6 push-md-6">
-                    <div class="bg-image-container">
-                        <img src="assets/img/photos/developer/service04.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Pricing -->
-    <section id="pricing" class="section bg-light" data-scheme="light">
-    
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content"><span class="typing">Check out my prices!</span></div>
-                </div>
-                <div class="row no-gutters">
-                    <!-- Pricing Table -->
-                    <div class="pricing-table col-md-4 animated" data-animation="fadeInRight">
-                        <div class="pricing-table-header">
-                            <h5 class="title">HTML to WordPress</h5>
-                            <span class="caption text-muted">2 busiess days</span>
-                        </div>
-                        <div class="pricing-table-price">
-                            <span class="description">from</span>
-                            <span class="price"><span>$</span>49</span>
-                            <span class="description">per view</span>
-                        </div>
-                        <ul class="pricing-table-list">
-                            <li>High-quality code</li>
-                            <li>Visual Composer</li>
-                            <li>Dedicated Support</li>
-                        </ul>
-                        <div class="pricing-table-submit" data-local-scroll>
-                            <a href="#contact" class="btn btn-dark btn-block">Hire me!</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Table -->
-                    <div class="pricing-table featured col-md-4">
-                        <div class="pricing-table-header">
-                            <h5 class="title">PSD to HTML</h5>
-                            <span class="caption text-muted">2 busiess days</span>
-                        </div>
-                        <div class="pricing-table-price">
-                            <span class="description">from</span>
-                            <span class="price"><span>$</span>99</span>
-                            <span class="description">per view</span>
-                        </div>
-                        <ul class="pricing-table-list">
-                            <li>High-quality code</li>
-                            <li>Mobile Support</li>
-                            <li>W3C Valid Code</li>
-                            <li>Dedicated Support</li>
-                        </ul>
-                        <div class="pricing-table-submit" data-local-scroll>
-                            <a href="#contact" class="btn btn-primary btn-block">Hire me!</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Table -->
-                    <div class="pricing-table col-md-4 animated" data-animation="fadeInLeft">
-                        <div class="pricing-table-header">
-                            <h5 class="title">Front-End Development</h5>
-                            <span class="caption text-muted">2 busiess days</span>
-                        </div>
-                        <div class="pricing-table-price">
-                            <span class="price"><span>$</span>39</span>
-                            <span class="description">per hour</span>
-                        </div>
-                        <ul class="pricing-table-list">
-                            <li>Well-organized code</li>
-                            <li>Quick turnaround</li>
-                            <li>Available 12h per day</li>
-                        </ul>
-                        <div class="pricing-table-submit" data-local-scroll>
-                            <a href="#contact" class="btn btn-dark btn-block">Hire me!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Portfolio -->
-    <section id="portfolio" class="section" data-scheme="light">
-    
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content">
-                        <span class="typing">What whould you like to see?</span>
-                        <!-- Filter - Isotope -->
-                        <ul class="nav nav-pills filter-isotope show-after-typing" data-filter-list="#works-list">
-                            <li class="nav-item"><a href="#" class="nav-link active" data-filter="*">All</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".Webdesign">Webdesign</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".Webdevelopment">Webdevelopment</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link" data-filter=".Other">Other</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="container-wide">
-                <!-- Filter - List Isotope -->
-                <div id="works-list" class="row filter-list-isotope">
-                    <div class="col-md-4 col-sm-6 Webdesign">
-                        <!-- Image Box -->
-                        <figure class="image-box">
-                            <div class="image">
-                                <a href="case-study-developer.html" data-toggle="ajax-modal">
-                                    <img src="assets/img/projects/project01.jpg" alt="">
-                                    <img src="assets/img/projects/project01-hover.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Being yourself</a></h5>
-                                <span class="caption text-muted">Webdesign</span>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 Webdevelopment">
-                        <!-- Image Box -->
-                        <figure class="image-box">
-                            <div class="image">
-                                <a href="case-study-developer.html" data-toggle="ajax-modal">
-                                    <img src="assets/img/projects/project02.jpg" alt="">
-                                    <img src="assets/img/projects/project02-hover.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Workspace</a></h5>
-                                <span class="caption text-muted">Webdevelopment</span>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 Webdevelopment">
-                        <!-- Image Box -->
-                        <figure class="image-box">
-                            <div class="image">
-                                <a href="case-study-developer.html" data-toggle="ajax-modal">
-                                    <img src="assets/img/projects/project03.jpg" alt="">
-                                    <img src="assets/img/projects/project03-hover.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Stay Active!</a></h5>
-                                <span class="caption text-muted">Webdevelopment</span>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 Webdesign">
-                        <!-- Image Box -->
-                        <figure class="image-box">
-                            <div class="image">
-                                <a href="case-study-developer.html" data-toggle="ajax-modal">
-                                    <img src="assets/img/projects/project04.jpg" alt="">
-                                    <img src="assets/img/projects/project04-hover.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Close to Nature</a></h5>
-                                <span class="caption text-muted">Webdesign</span>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 Webdevelopment">
-                        <!-- Image Box -->
-                        <figure class="image-box">
-                            <div class="image">
-                                <a href="case-study-developer.html" data-toggle="ajax-modal">
-                                    <img src="assets/img/projects/project05.jpg" alt="">
-                                    <img src="assets/img/projects/project05-hover.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Concrete Jungle</a></h5>
-                                <span class="caption text-muted">Webdevelopment</span>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 Other">
-                        <!-- Image Box -->
-                        <figure class="image-box">
-                            <div class="image">
-                                <a href="case-study-developer.html" data-toggle="ajax-modal">
-                                    <img src="assets/img/projects/project06.jpg" alt="">
-                                    <img src="assets/img/projects/project06-hover.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content text-center">
-                                <h5 class="title"><a href="case-study-developer.html" data-toggle="ajax-modal">Architecture</a></h5>
-                                <span class="caption text-muted">Other</span>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Testimonials -->
-    <section id="testimonials" class="section bg-primary-animated dark" data-scheme="dark">
-    
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content">
-                        <span class="typing">Look what my clients think about me…</span>
-                    </div>
-                </div>
-            </div>
-            <div class="container-slim">
-                <!-- Testimonial -->
-                <div class="testimonial">
-                    <p class="testimonial-content">Really solid &amp; creatve front-end developer and great teammate!</p>
-                    <div class="testimonial-author">
-                        <img src="assets/img/avatars/avatar01.jpg" alt="" class="testimonial-author-image">
-                        <div class="testimonial-author-content">
-                            <h6 class="name">Poul McCartney</h6>
-                            <span class="caption">Smashing Magazine</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial -->
-                <div class="testimonial">
-                    <p class="testimonial-content">Great skills, quick turnaround and awesome front-end development skills. 100% recommended!</p>
-                    <div class="testimonial-author">
-                        <img src="assets/img/avatars/avatar02.jpg" alt="" class="testimonial-author-image">
-                        <div class="testimonial-author-content">
-                            <h6 class="name">Poul McCartney</h6>
-                            <span class="caption">Smashing Magazine</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial -->
-                <div class="testimonial">
-                    <p class="testimonial-content">Very creative developer - Marucs has added lots of magic to our startup!</p>
-                    <div class="testimonial-author">
-                        <img src="assets/img/avatars/avatar03.jpg" alt="" class="testimonial-author-image">
-                        <div class="testimonial-author-content">
-                            <h6 class="name">Poul McCartney</h6>
-                            <span class="caption">Smashing Magazine</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial -->
-                <div class="testimonial">
-                    <p class="testimonial-content">He does awesome work with coding my designs!</p>
-                    <div class="testimonial-author">
-                        <img src="assets/img/avatars/avatar04.jpg" alt="" class="testimonial-author-image">
-                        <div class="testimonial-author-content">
-                            <h6 class="name">Poul McCartney</h6>
-                            <span class="caption">Smashing Magazine</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Blog -->
-    <section id="blog" class="section bg-light" data-scheme="light">
-    
-        <!-- Section Content -->
-        <div class="section-content">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content">
-                        <span class="typing">Some of my latest posts… Wan't more?</span>
-                        <div class="section-header-caption show-after-typing">
-                            <a href="blog-panel.html" class="btn btn-primary btn-sm">Check out my blog</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row masonry">  
-                    <div class="masonry-sizer col-xl-4 col-sm-6 col-12"></div>
-                    <div class="masonry-item col-xl-4 col-sm-6 col-12">
-                        <!-- Post - Item -->
-                        <article class="post item">
-                            <div class="post-image">
-                                <a href="blog-post-panel.html"><img src="assets/img/posts/post01.jpg" alt=""></a>
-                                <button class="btn-play" data-toggle="video-modal" data-target="#modalVideo" data-video="https://www.youtube.com/embed/uVju5--RqtY"></button>
-                            </div>
-                            <div class="post-content">
-                                <h4 class="post-title"><a href="blog-post-panel.html">Perfect Nature</a></h4>
-                                <ul class="post-meta">
-                                    <li><a href="#">24 July 2017</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                </ul>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="masonry-item col-xl-4 col-sm-6 col-12">
-                        <!-- Post - Item -->
-                        <article class="post item">
-                            <div class="post-image">
-                                <a href="blog-post-panel.html"><img src="assets/img/posts/post03.jpg" alt=""></a>
-                            </div>
-                            <div class="post-content">
-                                <h4 class="post-title"><a href="blog-post-panel.html">How to work more effective?</a></h4>
-                                <ul class="post-meta">
-                                    <li><a href="#">24 July 2017</a></li>
-                                    <li><a href="#">Work</a></li>
-                                </ul>
-                                <p>Proin pulvinar massa neque, vel sodales augue aliquet placerat. Sed consequat commodo magna ac luctus.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="masonry-item col-xl-4 col-sm-6 col-12">
-                        <!-- Post - Item -->
-                        <article class="post item">
-                            <div class="post-image">
-                                <a href="blog-post-panel.html"><img src="assets/img/posts/post02.jpg" alt=""></a>
-                            </div>
-                            <div class="post-content">
-                                <h4 class="post-title"><a href="blog-post-panel.html">Great workspace idas</a></h4>
-                                <ul class="post-meta">
-                                    <li><a href="#">24 July 2017</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                </ul>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="masonry-item col-xl-4 col-sm-6 col-12">
-                        <!-- Post - Item -->
-                        <article class="post item">
-                            <div class="post-image">
-                                <a href="blog-post-panel.html"><img src="assets/img/posts/post04.jpg" alt=""></a>
-                            </div>
-                            <div class="post-content">
-                                <h4 class="post-title"><a href="blog-post-panel.html">Road trip to Colorado</a></h4>
-                                <ul class="post-meta">
-                                    <li><a href="#">24 July 2017</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                </ul>
-                                <p>Sed consequat commodo magna ac luctus. Vel sodales augue aliquet placerat. </p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="masonry-item col-xl-4 col-sm-6 col-12">
-                        <!-- Blockquote -->
-                        <blockquote class="blockquote bg-dark dark">
-                            <div class="bg-image-container"><img src="assets/img/photos/developer/blockquote01.jpg" alt=""></div>
-                            <p>Vel sodales augue aliquet placerat. Sed consequat commodo magna ac luctus.</p>
-                            <footer class="text-muted"><span class="name">Mary Jane, The Founder</span></footer>
-                        </blockquote>
-                    </div>
-                    <div class="masonry-item col-xl-4 col-sm-6 col-12">
-                        <!-- Post - Item -->
-                        <article class="post item">
-                            <div class="post-content">
-                                <h4 class="post-title"><a href="blog-post-panel.html">Hello world!</a></h4>
-                                <ul class="post-meta">
-                                    <li><a href="#">24 July 2017</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                </ul>
-                                <p>Vel sodales augue aliquet placerat. Sed consequat commodo magna ac luctus.</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="text-center mt-3">
-                    <a href="blog-panel.html" class="btn btn-primary">Check out my blog</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Section - Contact -->
-    <section id="contact" class="section section-contact fullheight bg-dark dark" data-scheme="dark">
-
-        <!-- BG Map -->
-        <div id="google-map" class="bg-map bg-map-overlay dark" data-latitude="40.758895" data-longitude="-73.985131"></div>
-    
-        <!-- Section Content -->
-        <div class="section-content pos-v-center">
-            <div class="container">
-                <!-- Section Header -->
-                <div class="section-header">
-                    <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                    <div class="section-header-content">
-                        <span class="typing">Stay in touch with me!</span>
-                        <div class="section-header-caption show-after-typing222">   
-                            <div class="module">
-                                <span class="mr-2">Where am I located?</span>
-                                <label class="selector">
-                                    <input type="checkbox" class="selector-input" data-toggle="contact-map">
-                                    <span class="selector-indicator"></span>
-                                </label>
-                            </div>
-                            <div class="module">
-                                <span class="mr-2">Have a question?</span>
-                                <a href="mailto:example@mail.com" class="btn btn-primary btn-sm">Write to me!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Section Contact -->
-                <div class="row section-contact-content pt-lg-5 pb-lg-5">
-                    <div class="col-md-4">
-                        <h6 class="text-muted mb-2">Address:</h6>
-                        <address class="lead">
-                            1111-A Nowhere Lane,<br>
-                            Outta Sight,<br>
-                            State 90378, USA
-                        </address>
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="text-muted mb-2">E-mail:</h6>
-                        <p class="mb-5"><a href="#" class="lead link-inherit">example@mail.com</a></p>
-                        <h6 class="text-muted mb-2">Phone:</h6>
-                        <a href="#" class="lead link-inherit">+48 599 102 000</a>
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="text-muted mb-2">Skype:</h6>
-                        <p class="mb-5"><a href="#" class="lead link-inherit">example.username</a></p>
-                        <h6 class="text-muted mb-2">Find me on:</h6>
-                        <a href="https://www.facebook.com/suelopl/" target="_blank" class="icon icon-circle icon-hover icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/suelopl" target="_blank" class="icon icon-circle icon-hover icon-sm icon-twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/piotr-osmoła-2b69ba59/" target="_blank" class="icon icon-circle icon-hover icon-sm icon-linkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-</div>
-<!-- Content / End -->
-
-<!-- Footer -->
-<footer id="footer" class="bg-dark dark">
-
-    <div class="footer-content">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 mb-5 mb-md-0 text-center text-md-left">
-                    <p class="mb-2"><span class="typing">Would you like to get my CV in PDF?</span></p>
-                    <a href="#" class="btn btn-primary btn-sm">Download my CV</a>
-                </div>
-                <div class="spread-icons col-md-6 text-center text-md-right">
-                    <a href="https://www.facebook.com/suelopl/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/suelopl" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/piotr-osmoła-2b69ba59/" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-linkedin"></i></a>
-                    <p class="text-muted mt-3 mb-0">Copyright Johnatan Doe 2017©. <br>
-                    Made with love by <a href="http://suelo.pl" target="_blank" class="link-inherit">Suelo</a>.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</footer>
-<!-- Footer / End -->
-
-<!-- Window - Message -->
-<div id="message-window" class="window window-primary">
-    <svg class="window-background" viewBox="0 0 1920 1080" preserveAspectRatio="none"></svg>
-    <div class="window-inner">
-        <section class="section dark">
-            <div class="section-content">
-                <div class="container">
-                    <!-- Section Header -->
-                    <div class="section-header">
-                        <img src="assets/img/photos/developer/avatar-sm.jpg" alt="" class="section-header-image">
-                        <div class="section-header-content">
-                            <span class="typing">I am waiting for a message from you :)</span>
-                        </div>
-                    </div>
-                    <!-- Section Content -->
-                    <form class="contact-form form-text"
-                    data-message-error="Opps... Something went wrong - please try again later"
-                    data-message-success="Thanks! You will recieve a responsve in 24h!" data-validate>
-                        <div class="form-group">Hello! My name is <input name="name" type="text" class="form-control-text" required> and here is my message:</div>
-                        <div class="form-group"><textarea name="message" cols="30" rows="4" class="form-control-text" required></textarea></div>
-                        <div class="form-group">I will left you my e-mail - please reply: <input name="email" type="email" class="form-control-text" required></div>
-                        <button class="btn btn-white btn-lg">Send message!</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </div>
-</div>
-
-<!-- Window Toggle - Message -->
-<button class="window-toggle" data-target="#message-window"><i class="fa fa-comments"></i><i class="fa fa-times"></i></button>
-
-<!-- Modal / Video -->
-<div class="modal modal-video fade" id="modalVideo" role="dialog">
-    <button class="close" data-dismiss="modal"></button>
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <iframe height="500"></iframe>
-        </div>
-    </div>
-</div>
-
-<!-- JS Plugins -->
-<script src="assets/plugins/jquery/dist/jquery.min.js"></script>
-<script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
-<script src="assets/plugins/tether/dist/js/tether.min.js"></script>
-<script src="assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
-<script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
-<script src="assets/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<script src="assets/plugins/masonry-layout/dist/masonry.pkgd.min.js"></script>
-<script src="assets/plugins/slick-carousel/slick/slick.min.js"></script>
-<script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
-<script src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="assets/plugins/typed.js/dist/typed.min.js"></script>
-<script src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-<script src="assets/plugins/snapsvg/dist/snap.svg-min.js"></script>
-<script src="assets/plugins/isotope-layout/dist/isotope.pkgd.min.js"></script>
-
-<!-- JS Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRMEkSrFLFkLKHyLVwT0DLLTqcUhUUZdM"></script>
-
-<!-- JS Core -->
-<script src="assets/js/core.js"></script>
-
+<body>
+	<!-- pageWrapper -->
+	<div id="pageWrapper">
+		<!-- phStickyWrap -->
+		<div class="phStickyWrap">
+			<!-- pageHeader -->
+			<header id="pageHeader" class="headerFixer">
+				<div class="container">
+					<div class="position-relative">
+						<div class="row">
+							<div class="col-6 col-md-3">
+								<!-- logo -->
+								<div class="logo">
+									<a href=="index.html">
+										<img src="images/logo.png" class="img-fluid" alt="scavvios">
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-md-9 position-static">
+								<!-- pageNav -->
+								<nav id="pageNav" class="navbar navbar-expand-md navbar-dark rounded-0 border-0 px-0 pt-0 pt-md-2 pb-0 justify-content-end position-static">
+									<!-- pgNavOpener -->
+									<button class="navbar-toggler pgNavOpener position-relative p-0 border-0 rounded-0 mt-2" type="button" data-toggle="collapse" data-target="#pageMainNavCollapse" aria-controls="pageMainNavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+										<!-- icnBar -->
+										<span class="icnBar position-absolute"><span class="sr-only">menu</span></span>
+									</button>
+									<!-- pageMainNavCollapse -->
+									<div class="collapse navbar-collapse justify-content-md-end pageMainNavCollapse" id="pageMainNavCollapse">
+										<!-- pgMainNavigation -->
+										<ul class="navbar-nav text-uppercase pgMainNavigation font-weight-normal">
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#pageWrapper">Home</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#about">About</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#services">Services</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#works">Works</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#journey">Journey</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#blog">Blog</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link smooth" href="#contact">Contact</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<main>
+			<!-- introBlock -->
+			<article class="introBlock w-100 d-flex">
+				<!-- vAlign -->
+				<div class="vAlign d-flex w-100 align-items-sm-center">
+					<!-- xAlign -->
+					<div class="xAlign w-100 pt-15 pt-md-28 pb-md-14 pt-xl-41 pb-xl-19">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-sm-8 col-md-6">
+									<!-- ibCaptionHolder -->
+									<div class="position-relative ibCaptionHolder">
+										<h1 class="text-capitalize mb-3 mb-md-5">
+											<!-- headingTitle -->
+											<strong class="fwMedium d-block text-white position-relative headingTitle text-capitalize mb-3 mb-md-5 wow fadeInLeft" data-wow-delay="2s">UI/UX Designer</strong>
+											<span class="d-block wow fadeInLeft" data-wow-delay="2.5s">Smith <span class="text-white">Johnson</span></span>
+										</h1>
+										<p class="wow fadeInLeft" data-wow-delay="2.8s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis tellus, non rutru m ante. Morbi sed ipsum cursus, blandit odio</p>
+										<!-- ibBtnsWrap -->
+										<div class="ibBtnsWrap d-flex flex-wrap mx-n1 mx-lg-n3 pt-4 pt-lg-9">
+											<a href=="javascript:void(0);" class="btn btnWhite position-relative wow bounceIn text-uppercase mx-1 mx-lg-3 btnMinSmall" data-hover="Biography" data-wow-delay="3s"><span class="d-block btnText">Biography</span></a>
+											<a href=="javascript:void(0);" data-wow-delay="3.3s" class="btn btnTheme position-relative btnMinSmall wow  bounceIn mx-1 mx-lg-3" data-hover="Hire Me"><span class="d-block btnText">Hire Me</span></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 position-static">
+									<!-- ibImgHolder -->
+									<div class="ibImgHolder wow fadeInRight" data-wow-delay="3.6s">
+										<img src="http://placehold.it/665x630" class="img-fluid" alt="image description">
+									</div>
+									<!-- ibSocialNetworks -->
+									<ul class="list-unstyled socialNetworks ibSocialNetworks mb-0 d-none d-md-block wow fadeIn" data-wow-delay="4s">
+										<li>
+											<a href=="javascript:void(0);">
+												<i class="fab fa-facebook-f"><span class="sr-only">facebook</span></i>
+											</a>
+										</li>
+										<li>
+											<a href=="javascript:void(0);">
+												<i class="fab fa-twitter"><span class="sr-only">twitter</span></i>
+											</a>
+										</li>
+										<li>
+											<a href=="javascript:void(0);">
+												<i class="fab fa-linkedin-in"><span class="sr-only">linkedin</span></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- vline1 -->
+				<span class="vline wow vline1 position-absolute d-none d-md-block"></span>
+				<!-- vline2 -->
+				<span class="vline wow vline2 position-absolute d-none d-md-block"></span>
+				<!-- vline3 -->
+				<span class="vline wow vline3 position-absolute d-none d-md-block"></span>
+				<!-- vline4 -->
+				<span class="vline wow vline4 position-absolute d-none d-md-block"></span>
+				<!-- edot1 -->
+				<span class="edot edot1 edotsizelg position-absolute rounded-circle bg-warning wow bounceIn" data-wow-delay="4.3s"></span>
+				<!-- edot2 -->
+				<span class="edot edot2 position-absolute rounded-circle bg-warning wow bounceIn" data-wow-delay="4.7s"></span>
+				<!-- edot3 -->
+				<span class="edot edot3 position-absolute rounded-circle wow bounceIn" data-wow-delay="4.9s"></span>
+				<!-- edot4 -->
+				<span class="edot edot4 position-absolute rounded-circle bg-warning wow bounceIn" data-wow-delay="5s"></span>
+			</article>
+			<!-- ibUpperWrap -->
+			<div class="ibUpperWrap">
+				<!-- aboutBlock -->
+				<article class="aboutBlock bg-secondary pt-7 pb-7 pt-md-13 pb-md-13 pt-lg-18 pb-lg-18 pt-xl-23 pb-xl-24">
+					<div id="about" class="mt-n43 pt-43">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-md-6 order-md-2">
+									<header class="mb-lg-5">
+										<h2 class="text-capitalize mb-4 mb-lg-7">
+											<!-- headingTitle -->
+											<strong class="fwMedium d-block text-white position-relative headingTitle text-capitalize mb-3 wow fadeInRight">About Me</strong>
+											<span class="d-block wow fadeInRight" data-wow-delay="0.7s">Unleash Your Creativity</span>
+										</h2>
+										<h3 class="text-white fwMedium wow fadeInRight" data-wow-delay="0.9s">A Lead UX & UI Designer based in Canada, with 8+ Years of Experience</h3>
+									</header>
+									<p class="wow fadeInRight" data-wow-delay="0.7s">Lorem Ipsum is simply dummy text of the printing  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the  simply dummy text 1500s.</p>
+									<!-- btn -->
+									<a href=="javascript:void(0);" class="btn btnThemeOutline position-relative btnMinSmall mt-3 mt-lg-5 wow bounceIn" data-hover="Download CV" data-wow-delay="2.3s"><span class="d-block btnText">Download CV</span></a>
+								</div>
+								<div class="col-12 col-md-6 order-md-1">
+									<!-- abFeaturesWrap -->
+									<div class="abFeaturesWrap mx-auto mx-md-0 position-relative">
+										<!-- abFeatureList -->
+										<ul class="list-unstyled abFeatureList text-center d-flex justify-content-center justify-content-sm-start flex-wrap pt-12 mb-n8 mb-sm-3">
+											<li>
+												<!-- abflColumn -->
+												<div class="abflColumn rounded-circle bg-dark text-white d-flex align-items-center justify-content-center position-relative mx-auto mx-sm-0 wow bounceIn">
+													<!-- abflcTag -->
+													<strong class="abflcTag position-absolute fwMedium text-white rounded-circle d-flex align-items-center justify-content-center wow bounceIn" data-wow-delay="1s">90+</strong>
+													<!-- abflcHeading -->
+													<h4 class="abflcHeading text-white fwMedium">Happy Clients</h4>
+												</div>
+											</li>
+											<li>
+												<!-- abflColumn -->
+												<div class="abflColumn rounded-circle bg-dark text-white d-flex align-items-center justify-content-center position-relative mx-auto mx-sm-0 wow bounceIn" data-wow-delay="1.3s">
+													<!-- abflcTag -->
+													<strong class="abflcTag position-absolute fwMedium text-white rounded-circle d-flex align-items-center justify-content-center wow bounceIn" data-wow-delay="1.3s">100+</strong>
+													<!-- abflcHeading -->
+													<h4 class="abflcHeading text-white fwMedium">Projects Done</h4>
+												</div>
+											</li>
+											<li>
+												<!-- abflColumn -->
+												<div class="abflColumn rounded-circle bg-dark text-white d-flex align-items-center justify-content-center position-relative mx-auto mx-sm-0 wow bounceIn" data-wow-delay="1.7s">
+													<!-- abflcTag -->
+													<strong class="abflcTag position-absolute fwMedium text-white rounded-circle d-flex align-items-center justify-content-center wow bounceIn" data-wow-delay="1.7s">15+</strong>
+													<!-- abflcHeading -->
+													<h4 class="abflcHeading text-white fwMedium">Projects In Progresss</h4>
+												</div>
+											</li>
+											<li>
+												<!-- abflColumn -->
+												<div class="abflColumn rounded-circle bg-dark text-white d-flex align-items-center justify-content-center position-relative mx-auto mx-sm-0 wow bounceIn" data-wow-delay="1.9s">
+													<!-- abflcTag -->
+													<strong class="abflcTag position-absolute fwMedium text-white rounded-circle d-flex align-items-center justify-content-center wow bounceIn" data-wow-delay="2s">500+</strong>
+													<!-- abflcHeading -->
+													<h4 class="abflcHeading text-white fwMedium">Working Hours</h4>
+												</div>
+											</li>
+										</ul>
+										<!-- edot5 -->
+										<span class="edot edotsizesm edot5 position-absolute rounded-circle bg-warning wow fadeIn" data-wow-delay="2.3s"></span>
+										<!-- edot6 -->
+										<span class="edot edotsizesm edot6 position-absolute rounded-circle bg-warning wow fadeIn" data-wow-delay="2.7s"></span>
+										<!-- edot7 -->
+										<span class="edot edotsizesm edot7 position-absolute rounded-circle bg-warning wow fadeIn" data-wow-delay="3s"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<!-- servicesBlock -->
+				<section class="servicesBlock pt-7 pt-md-13 pt-lg-19 pb-lg-13 pt-xl-24 pb-xl-19">
+					<div id="services" class="mt-n43 pt-43">
+						<div class="container">
+							<header class="text-center mb-14 mb-lg-20">
+								<h2 class="text-capitalize mb-4 mb-lg-7">
+									<!-- headingTitle -->
+									<strong class="fwMedium d-inline-block align-top text-white position-relative headingTitle text-capitalize mb-3 wow fadeInRight">My Services</strong>
+									<span class="d-block wow fadeInUp" data-wow-delay="0.5s">What Can I Do Best ?</span>
+								</h2>
+							</header>
+							<div class="row justify-content-center">
+								<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex">
+									<!-- msColumn -->
+									<article class="msColumn position-relative bg-dark rounded-lg pt-14 pb-1 px-6 w-100 mb-13 text-white wow fadeInUp" data-wow-delay="1s">
+										<!-- mscIcnWrap -->
+										<span class="mscIcnWrap rounded-circle d-flex align-items-center text-center position-absolute wow bounceIn" data-wow-delay="1.3s">
+											<span class="w-100">
+												<img src="images/ico01.svg" width="34" height="34" alt="icon">
+											</span>
+										</span>
+										<!-- hasLineBottom -->
+										<h3 class="h5 hasLineBottom fwMedium text-capitalize text-white position-relative pb-4 mb-5">Website Design</h3>
+										<p>Lorem um dolor sit amet, consec aSuspendisse varius lacus</p>
+									</article>
+								</div>
+								<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex">
+									<!-- msColumn -->
+									<article class="msColumn position-relative bg-dark rounded-lg pt-14 pb-1 px-6 w-100 mb-13 text-white wow fadeInUp" data-wow-delay="1.5s">
+										<!-- mscIcnWrap -->
+										<span class="mscIcnWrap rounded-circle d-flex align-items-center text-center position-absolute wow bounceIn" data-wow-delay="1.8s">
+											<span class="w-100">
+												<img src="images/ico02.svg" width="40" height="37" alt="icon">
+											</span>
+										</span>
+										<!-- hasLineBottom -->
+										<h3 class="h5 hasLineBottom fwMedium text-capitalize text-white position-relative pb-4 mb-5">Brand Identity</h3>
+										<p>Lorem um dolor sit amet, consec aSuspendisse varius lacus</p>
+									</article>
+								</div>
+								<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex">
+									<!-- msColumn -->
+									<article class="msColumn position-relative bg-dark rounded-lg pt-14 pb-1 px-6 w-100 mb-13 text-white wow fadeInUp" data-wow-delay="2s">
+										<!-- mscIcnWrap -->
+										<span class="mscIcnWrap rounded-circle d-flex align-items-center text-center position-absolute wow bounceIn" data-wow-delay="2.3s">
+											<span class="w-100">
+												<img src="images/ico03.svg" width="34" height="37" alt="icon">
+											</span>
+										</span>
+										<!-- hasLineBottom -->
+										<h3 class="h5 hasLineBottom fwMedium text-capitalize text-white position-relative pb-4 mb-5">Logo Design</h3>
+										<p>Lorem um dolor sit amet, consec aSuspendisse varius lacus</p>
+									</article>
+								</div>
+								<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex">
+									<!-- msColumn -->
+									<article class="msColumn position-relative bg-dark rounded-lg pt-14 pb-1 px-6 w-100 mb-13 text-white wow fadeInUp" data-wow-delay="2.5s">
+										<!-- mscIcnWrap -->
+										<span class="mscIcnWrap rounded-circle d-flex align-items-center text-center position-absolute wow bounceIn" data-wow-delay="2.8s">
+											<span class="w-100">
+												<img src="images/ico04.svg" width="32" height="39" alt="icon">
+											</span>
+										</span>
+										<!-- hasLineBottom -->
+										<h3 class="h5 hasLineBottom fwMedium text-capitalize text-white position-relative pb-4 mb-5">Mobile App Design</h3>
+										<p>Lorem um dolor sit amet, consec aSuspendisse varius lacus</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- expertiseBlock -->
+				<article id="ctcont" class="expertiseBlock bg-dark pt-7 pb-7 pt-md-10 pb-md-10 pt-lg-12 pb-lg-17 pt-xl-16 pb-xl-25">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-5">
+								<header class="mb-5">
+									<h2 class="text-capitalize mb-6">
+										<!-- headingTitle -->
+										<strong class="fwMedium d-block text-white position-relative headingTitle text-capitalize mb-4 wow fadeInLeft">Expertise</strong>
+										<span class="d-block wow fadeInLeft" data-wow-delay="0.5s">My Skills &amp; Tools</span>
+									</h2>
+									<h3 class="text-white fwMedium wow fadeInLeft" data-wow-delay="0.9s">Every Day is a New Challenge</h3>
+								</header>
+								<p class="wow fadeInLeft" data-wow-delay="1.3s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  unknown printer took a galley</p>
+								<!-- btn -->
+								<a href=="javascript:void(0);" class="btn btnThemeOutline position-relative btnMinSmall mt-5 wow bounceIn" data-wow-delay="1.7s" data-hover="Hire Me"><span class="d-block btnText">Hire Me</span></a>
+							</div>
+							<div class="col-12 col-md-7">
+								<!-- extraWrap -->
+								<div class="extraWrap mt-7 mt-md-0 pt-md-5 pl-md-14">
+									<!-- prgCapWrap -->
+									<div class="prgCapWrap d-flex align-items-center position-relative mb-5 wow">
+										<!-- prgTitle -->
+										<strong class="d-block flex-shrink-0 text-uppercase fwMedium prgTitle text-white">Adobe Photoshop</strong>
+										<!-- progress -->
+										<div class="progress w-100 position-relative">
+											<div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<!-- prgShowSpan -->
+										<strong class="prgShowSpan rounded fwMedium bg-info text-white text-center d-block flex-shrink-0 position-relative ml-6 dataCountBar">85</strong>
+									</div>
+									<!-- prgCapWrap -->
+									<div class="prgCapWrap d-flex align-items-center position-relative mb-5 wow">
+										<!-- prgTitle -->
+										<strong class="d-block flex-shrink-0 text-uppercase fwMedium prgTitle text-white">Adobe Illustrator</strong>
+										<!-- progress -->
+										<div class="progress w-100 position-relative">
+											<div class="progress-bar bg-orange" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<!-- prgShowSpan -->
+										<strong class="prgShowSpan rounded fwMedium bg-orange text-white text-center d-block flex-shrink-0 position-relative ml-6 dataCountBar">92</strong>
+									</div>
+									<!-- prgCapWrap -->
+									<div class="prgCapWrap d-flex align-items-center position-relative mb-5 wow">
+										<!-- prgTitle -->
+										<strong class="d-block flex-shrink-0 text-uppercase fwMedium prgTitle text-white">Adobe XD</strong>
+										<!-- progress -->
+										<div class="progress w-100 position-relative">
+											<div class="progress-bar bg-pink" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+										<!-- prgShowSpan -->
+										<strong class="prgShowSpan rounded fwMedium bg-pink text-white text-center d-block flex-shrink-0 position-relative ml-6 dataCountBar">70</strong>
+									</div>
+									<!-- pieList -->
+									<ul class="list-unstyled pieList d-flex justify-content-between flex-wrap mb-n6 mt-7 mt-md-11">
+										<li class="wow" data-wow-delay="0.5s">
+											<!-- pieColumn -->
+											<div class="pieColumn position-relative text-white text-center">
+												<strong class="fwMedium position-absolute titleIn d-flex align-items-center justify-content-center dataCount" data-count-start="0" data-count-end="87">87</strong>
+												<svg width="100" height="100" class="align-top mb-4">
+													<circle class="cr1" r="47.5" cx="50" cy="50" fill="none" stroke="#19232b" stroke-width="5" />
+													<circle class="cr2" r="47.5" cx="50" cy="50" fill="none" stroke="#d593ff" stroke-width="5" stroke-dasharray="170 53" />
+												</svg>
+												<strong class="fwMedium titleOut d-block text-uppercase">After Effects</strong>
+											</div>
+										</li>
+										<li class="wow" data-wow-delay="1s">
+											<!-- pieColumn -->
+											<div class="pieColumn position-relative text-white text-center">
+												<strong class="fwMedium position-absolute titleIn d-flex align-items-center justify-content-center dataCount" data-count-start="0" data-count-end="75">75</strong>
+												<svg width="100" height="100" class="align-top mb-4">
+													<circle class="cr1" r="47.5" cx="50" cy="50" fill="none" stroke="#19232b" stroke-width="5" />
+													<circle class="cr2" r="47.5" cx="50" cy="50" fill="none" stroke="#35fc00" stroke-width="5" stroke-dasharray="150 73" />
+												</svg>
+												<strong class="fwMedium titleOut d-block text-uppercase">Dream WeAver</strong>
+											</div>
+										</li>
+										<li class="wow" data-wow-delay="1.5s">
+											<!-- pieColumn -->
+											<div class="pieColumn position-relative text-white text-center">
+												<strong class="fwMedium position-absolute titleIn d-flex align-items-center justify-content-center dataCount" data-count-start="0" data-count-end="69">69</strong>
+												<svg width="100" height="100" class="align-top mb-4">
+													<circle class="cr1" r="47.5" cx="50" cy="50" fill="none" stroke="#19232b" stroke-width="5" />
+													<circle class="cr2" r="47.5" cx="50" cy="50" fill="none" stroke="#ffa726" stroke-width="5" stroke-dasharray="131 92" />
+												</svg>
+												<strong class="fwMedium titleOut d-block text-uppercase">Html / Css</strong>
+											</div>
+										</li>
+										<li class="wow" data-wow-delay="2s">
+											<!-- pieColumn -->
+											<div class="pieColumn position-relative text-white text-center">
+												<strong class="fwMedium position-absolute titleIn d-flex align-items-center justify-content-center dataCount" data-count-start="0" data-count-end="80">80</strong>
+												<svg width="100" height="100" class="align-top mb-4">
+													<circle class="cr1" r="47.5" cx="50" cy="50" fill="none" stroke="#19232b" stroke-width="5" />
+													<circle class="cr2" r="47.5" cx="50" cy="50" fill="none" stroke="#00a0d2" stroke-width="5" stroke-dasharray="160 63" />
+												</svg>
+												<strong class="fwMedium titleOut d-block text-uppercase">Wordpress</strong>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<!-- portfolioBlock -->
+				<section class="portfolioBlock pt-7 pb-3 pt-md-12 pb-md-7 pt-lg-17 pb-lg-12 pt-xl-23 pb-xl-18">
+					<div id="works" class="mt-n43 pt-43">
+						<div class="container">
+							<!-- filterHead -->
+							<header class="filterHead mb-10">
+								<div class="row align-items-md-end">
+									<div class="col-12 col-lg-5">
+										<h2 class="text-capitalize">
+											<!-- headingTitle -->
+											<strong class="fwMedium d-block text-white position-relative headingTitle text-capitalize mb-3 wow fadeInRight">Portfolio</strong>
+											<span class="d-block wow fadeInUp" data-wow-delay="0.5s">My Creative Work</span>
+										</h2>
+									</div>
+									<div class="col-12 col-lg-7">
+										<!-- filtersList -->
+										<ul class="list-unstyled filtersList isoFiltersList d-flex flex-wrap justify-content-lg-end text-uppercase fwMedium text-white wow bounceInUp" data-wow-delay="1s">
+											<li>
+												<a href=="javascript:void(0);">ALL</a>
+											</li>
+											<li>
+												<a href=="javascript:void(0);" data-filter=".wbdesign">WEB DESIGN</a>
+											</li>
+											<li>
+												<a href=="javascript:void(0);" data-filter=".lgdesign">Logo Design</a>
+											</li>
+											<li class="active">
+												<a href=="javascript:void(0);" data-filter=".bran">BRANDING</a>
+											</li>
+											<li>
+												<a href=="javascript:void(0);" data-filter=".appdesign">Apps Design</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</header>
+							<div class="wow fadeInUp">
+								<!-- isoContentHolder -->
+								<div class="row isoContentHolder">
+									<div class="col-12 col-sm-6 col-lg-4 appdesign wbdesign isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/370x260" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-4 lgdesign isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/370x260" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle mb-0">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-4 bran isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/370x550" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-4 appdesign isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/370x260" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-4 wbdesign isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/370x260" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-4 lgdesign isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/370x260" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="col-12 col-lg-8 bran isoCol">
+										<!-- mcwColumn -->
+										<article class="position-relative mcwColumn text-center mb-6">
+											<div class="imgHolder">
+												<img src="http://placehold.it/770x260" class="img-fluid" alt="image description">
+											</div>
+											<!-- mcwcCaption -->
+											<div class="mcwcCaption text-white position-absolute d-flex align-items-center">
+												<div class="mcwccWrap w-100 p-3">
+													<h3 class="text-white text-capitalize fwMedium title">Illustrator Design</h3>
+													<h4 class="text-white text-capitalize fwMedium subTitle">Mockup, Design, Inspiration</h4>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- storyBlock -->
+				<article class="storyBlock bg-dark pt-7 pb-3 pt-md-12 pb-md-7 pt-lg-17 pb-lg-13 pt-xl-23 pb-xl-20">
+					<div id="journey" class="mt-n43 pt-43">
+						<div class="container">
+							<header class="text-center mb-8">
+								<h2 class="text-capitalize">
+									<!-- headingTitle -->
+									<strong class="fwMedium d-inline-block align-top text-white position-relative headingTitle text-capitalize mb-3 wow fadeInRight">Employment &amp; Education</strong>
+									<span class="d-block wow bounceInUp" data-wow-delay="0.6s">My Experience Journey</span>
+								</h2>
+							</header>
+							<div class="row align-items-md-center">
+								<div class="col-12 col-md-6">
+									<!-- stImgHolder -->
+									<div class="stImgHolder mx-auto mx-md-0 rounded overflow-hidden mt-md-n4 mb-4 mb-md-0 wow fadeInLeft" data-wow-delay="0.5s">
+										<img src="http://placehold.it/470x600" class="rounded img-fluid" alt="image description">
+									</div>
+								</div>
+								<div class="col-12 col-md-6">
+									<!-- extraWrap -->
+									<div class="extraWrap pl-5 pl-xl-0 ml-xl-n4">
+										<!-- experienceList -->
+										<ul class="list-unstyled experienceList position-relative pt-8 mb-0">
+											<li>
+												<!-- elStoryColumn -->
+												<div class="elStoryColumn position-relative wow bounceInUp" data-wow-delay="1s">
+													<span class="escIcnWrap d-flex align-items-center justify-content-center text-center rounded-circle position-absolute">
+														<span class="w-100 d-block">
+															<img src="images/ico05.svg" class="img-fluid" width="31" height="28" alt="icon">
+														</span>
+													</span>
+													<div class="descrWrap">
+														<strong class="prTitle font-weight-normal d-block">Present - 2020</strong>
+														<h3 class="text-white escHeading font-weight-normal mb-4">Product Manager / Google</h3>
+														<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit sagittis sem nibh. Duis sed odio sit amet nibh</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<!-- elStoryColumn -->
+												<div class="elStoryColumn position-relative wow bounceInUp" data-wow-delay="1.6s">
+													<span class="escIcnWrap d-flex align-items-center justify-content-center text-center rounded-circle position-absolute">
+														<span class="w-100 d-block">
+															<img src="images/ico06.svg" class="img-fluid" width="35" height="29" alt="icon">
+														</span>
+													</span>
+													<div class="descrWrap">
+														<strong class="prTitle font-weight-normal d-block">2016 - 2018</strong>
+														<h3 class="text-white escHeading font-weight-normal mb-4">MS Degree / University of Manchester</h3>
+														<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit sagittis sem nibh. Duis sed odio sit amet nibh</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<!-- elStoryColumn -->
+												<div class="elStoryColumn position-relative wow bounceInUp" data-wow-delay="2s">
+													<span class="escIcnWrap d-flex align-items-center justify-content-center text-center rounded-circle position-absolute">
+														<span class="w-100 d-block">
+															<img src="images/ico07.svg" class="img-fluid" width="31" height="31" alt="icon">
+														</span>
+													</span>
+													<div class="descrWrap">
+														<strong class="prTitle font-weight-normal d-block">2013 - 2016</strong>
+														<h3 class="text-white escHeading font-weight-normal mb-4">Lead UI Designer / Apple Inc.</h3>
+														<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit sagittis sem nibh. Duis sed odio sit amet nibh</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<!-- elStoryColumn -->
+												<div class="elStoryColumn position-relative wow bounceInUp" data-wow-delay="2.3s">
+													<span class="escIcnWrap d-flex align-items-center justify-content-center text-center rounded-circle position-absolute">
+														<span class="w-100 d-block">
+															<img src="images/ico08.svg" class="img-fluid" width="30" height="30" alt="icon">
+														</span>
+													</span>
+													<div class="descrWrap">
+														<strong class="prTitle font-weight-normal d-block">2009 - 2013</strong>
+														<h3 class="text-white escHeading font-weight-normal mb-4">BA Degree / London School of Arts</h3>
+														<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit sagittis sem nibh. Duis sed odio sit amet nibh</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<!-- testimonialsBlock -->
+				<section class="testimonialsBlock pt-7 pb-7 pt-md-11 pb-md-11 pt-lg-15 pb-lg-15 pt-xl-23 pb-xl-20">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-5">
+								<header class="mb-7 mb-md-10 mb-xl-16">
+									<h2 class="text-capitalize">
+										<!-- headingTitle -->
+										<strong class="fwMedium d-block text-white position-relative headingTitle text-capitalize mb-4 wow fadeInLeft">Testimonials</strong>
+										<span class="d-block wow fadeInLeft" data-wow-delay="0.7s">Happy Clients</span>
+									</h2>
+								</header>
+								<!-- sponsorsList -->
+								<ul class="list-unstyled sponsorsList d-flex flex-wrap mb-0 text-center text-md-left">
+									<li class="wow bounceIn" data-wow-delay="0.9s">
+										<a href=="javascript:void(0);">
+											<img src="http://placehold.it/150x80" class="img-fluid" alt="fantastic helsinki">
+										</a>
+									</li>
+									<li class="wow bounceIn" data-wow-delay="1.2s">
+										<a href=="javascript:void(0);">
+											<img src="http://placehold.it/150x80" class="img-fluid" alt="helsinki">
+										</a>
+									</li>
+									<li class="wow bounceIn" data-wow-delay="1.5s">
+										<a href=="javascript:void(0);">
+											<img src="http://placehold.it/150x80" class="img-fluid" alt="norway">
+										</a>
+									</li>
+									<li class="wow bounceIn" data-wow-delay="1.7s">
+										<a href=="javascript:void(0);">
+											<img src="http://placehold.it/150x80" class="img-fluid" alt="erikson">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 col-md-7">
+								<div class="wow fadeInRight" data-wow-delay="2s">
+									<!-- quotesSlider -->
+									<div class="quotesSlider">
+										<div>
+											<!-- clientQuote -->
+											<blockquote class="clientQuote border-0 m-0 text-white position-relative px-0 pt-4 pt-md-8 font-weight-normal">
+												<div class="imgHolder rounded-circle mb-7">
+													<img src="http://placehold.it/110x110" class="rounded-circle img-fluid" alt="Nathaniel D.Costa">
+												</div>
+												<q class="d-block mb-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</q>
+												<cite class="fwMedium d-block">Nathaniel D.Costa</cite>
+											</blockquote>
+										</div>
+										<div>
+											<!-- clientQuote -->
+											<blockquote class="clientQuote border-0 m-0 text-white position-relative px-0 pt-4 pt-md-8 font-weight-normal">
+												<div class="imgHolder rounded-circle mb-7">
+													<img src="http://placehold.it/110x110" class="rounded-circle img-fluid" alt="Nathaniel D.Costa">
+												</div>
+												<q class="d-block mb-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</q>
+												<cite class="fwMedium d-block">Nathaniel D.Costa</cite>
+											</blockquote>
+										</div>
+										<div>
+											<!-- clientQuote -->
+											<blockquote class="clientQuote border-0 m-0 text-white position-relative px-0 pt-4 pt-md-8 font-weight-normal">
+												<div class="imgHolder rounded-circle mb-7">
+													<img src="http://placehold.it/110x110" class="rounded-circle img-fluid" alt="Nathaniel D.Costa">
+												</div>
+												<q class="d-block mb-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</q>
+												<cite class="fwMedium d-block">Nathaniel D.Costa</cite>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- newsBlogBlock -->
+				<section class="newsBlogBlock bg-secondary pt-7 pb-4 pt-md-10 pb-md-7 pt-lg-16 pb-lg-13 pt-xl-23 pb-xl-18">
+					<div id="blog" class="mt-n43 pt-43">
+						<div class="container">
+							<header class="text-center mb-7 mb-lg-9 mb-lg-13">
+								<h2 class="text-capitalize">
+									<!-- headingTitle -->
+									<strong class="fwMedium d-inline-block align-top text-white position-relative headingTitle text-capitalize mb-3 wow fadeInLeft">News &amp; Blog</strong>
+									<span class="d-block wow fadeInUp" data-wow-delay="0.7s">Some Tips &amp; Activity</span>
+								</h2>
+							</header>
+							<div class="wow fadeInDown" data-wow-delay="1.2s">
+								<!-- isoContentHolder -->
+								<div class="isoContentHolder row">
+									<div class="isoCol col-12 col-sm-6 col-md-4">
+										<!-- nwbColumn -->
+										<article class="w-100 nwbColumn heightLg rounded-lg position-relative overflow-hidden mb-6">
+											<span class="bgCover imgHolder position-absolute rounded-lg w-100 h-100" style="background-image: url(http://placehold.it/370x610);"></span>
+											<!-- nwbcCaption -->
+											<div class="nwbcCaption hasShadowBottom d-flex align-items-end w-100 h-100 position-absolute">
+												<div class="w-100 py-4 px-4 py-xl-7 px-xl-8">
+													<time datetime="2011-01-12" class="d-block font-weight-normal timeStamp mb-3">18 Sep, 2020 - Design</time>
+													<h3 class="text-white nwbcHeading font-weight-normal mb-0">
+														<a href=="javascript:void(0);">The Shocking Revelation of Portfolio</a>
+													</h3>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="isoCol col-12 col-sm-6 col-md-4">
+										<!-- nwbColumn -->
+										<article class="w-100 nwbColumn rounded-lg position-relative overflow-hidden mb-6">
+											<span class="bgCover imgHolder position-absolute rounded-lg w-100 h-100" style="background-image: url(http://placehold.it/370x290);"></span>
+											<!-- nwbcCaption -->
+											<div class="nwbcCaption d-flex align-items-end w-100 h-100 position-absolute">
+												<div class="w-100 py-4 px-4 py-xl-7 px-xl-8">
+													<time datetime="2011-01-12" class="d-block font-weight-normal timeStamp mb-3">18 Sep, 2020 - Design</time>
+													<h3 class="text-white nwbcHeading font-weight-normal mb-0">
+														<a href=="javascript:void(0);">The Shocking Revelation of Portfolio</a>
+													</h3>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="isoCol col-12 col-sm-6 col-md-4">
+										<!-- nwbColumn -->
+										<article class="w-100 nwbColumn heightLg rounded-lg position-relative overflow-hidden mb-6">
+											<span class="bgCover imgHolder position-absolute rounded-lg w-100 h-100" style="background-image: url(http://placehold.it/370x610);"></span>
+											<!-- nwbcCaption -->
+											<div class="nwbcCaption d-flex align-items-end w-100 h-100 position-absolute">
+												<div class="w-100 py-4 px-4 py-xl-7 px-xl-8">
+													<time datetime="2011-01-12" class="d-block font-weight-normal timeStamp mb-3">18 Sep, 2020 - Design</time>
+													<h3 class="text-white nwbcHeading font-weight-normal mb-0">
+														<a href=="javascript:void(0);">The Shocking Revelation of Portfolio</a>
+													</h3>
+												</div>
+											</div>
+										</article>
+									</div>
+									<div class="isoCol col-12 col-sm-6 col-md-4">
+										<!-- nwbColumn -->
+										<article class="w-100 nwbColumn rounded-lg position-relative overflow-hidden mb-6">
+											<span class="bgCover imgHolder position-absolute rounded-lg w-100 h-100" style="background-image: url(http://placehold.it/370x290);"></span>
+											<!-- nwbcCaption -->
+											<div class="nwbcCaption d-flex align-items-end w-100 h-100 position-absolute">
+												<div class="w-100 py-4 px-4 py-xl-7 px-xl-8">
+													<time datetime="2011-01-12" class="d-block font-weight-normal timeStamp mb-3">18 Sep, 2020 - Design</time>
+													<h3 class="text-white nwbcHeading font-weight-normal mb-0">
+														<a href=="javascript:void(0);">The Shocking Revelation of Portfolio</a>
+													</h3>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- platformBlock -->
+				<section class="platformBlock bg-dark text-white pt-7 pb-4 pt-md-10 pb-md-7 pt-lg-16 pb-lg-12 pt-xl-23 pb-xl-18">
+					<div class="container">
+						<header class="text-center textSizeMedium mb-10 mb-md-16">
+							<h2 class="text-white mb-5 wow fadeInUp">Looking to Design Similar Project ?</h2>
+							<p class="wow fadeInUp" data-wow-delay="0.7s"><strong class="fwMedium">Contact me on any platform and i will happy to help you out ?</strong></p>
+						</header>
+						<div class="row justify-content-center">
+							<div class="col-12 col-sm-6 col-md-4 colXlDiv5">
+								<!-- pfbColumn -->
+								<aside class="pfbColumn position-relative w-100 text-white rounded-lg pt-10 px-4 pb-4 mb-6 wow fadeInUp" data-wow-delay="1s">
+									<i class="icomoon-telephone position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white icn wow bounceIn" data-wow-delay="1.5s"><span class="sr-only">icon</span></i>
+									<strong class="title d-block font-weight-normal mb-1">Call Me At:</strong>
+									<strong class="d-block fwMedium">
+										<a href="tel:02598569856">025 - 9856 - 9856</a>
+									</strong>
+								</aside>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 colXlDiv5">
+								<!-- pfbColumn -->
+								<aside class="pfbColumn position-relative w-100 text-white rounded-lg pt-10 px-4 pb-4 mb-6 wow fadeInUp" data-wow-delay="1.5s">
+									<i class="icomoon-mail position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white icn wow bounceIn" data-wow-delay="2s"><span class="sr-only">icon</span></i>
+									<strong class="title d-block font-weight-normal mb-1">Email At:</strong>
+									<strong class="d-block fwMedium">
+										<a href="mailto:smith.j@gmail.com">smith.j@gmail.com</a>
+									</strong>
+								</aside>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 colXlDiv5">
+								<!-- pfbColumn -->
+								<aside class="pfbColumn position-relative w-100 text-white rounded-lg pt-10 px-4 pb-4 mb-6 wow fadeInUp" data-wow-delay="2s">
+									<i class="fab fa-facebook-f position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white icn wow bounceIn" data-wow-delay="2.5s"><span class="sr-only">icon</span></i>
+									<strong class="title d-block font-weight-normal mb-1">Facebook</strong>
+									<strong class="d-block fwMedium">
+										<a href=="javascript:void(0);">smith.johnson/profile</a>
+									</strong>
+								</aside>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 colXlDiv5">
+								<!-- pfbColumn -->
+								<aside class="pfbColumn position-relative w-100 text-white rounded-lg pt-10 px-4 pb-4 mb-6 wow fadeInUp" data-wow-delay="2.5s">
+									<i class="fab fa-twitter position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white icn wow bounceIn" data-wow-delay="3s"><span class="sr-only">icon</span></i>
+									<strong class="title d-block font-weight-normal mb-1">Twitter</strong>
+									<strong class="d-block fwMedium">
+										<a href=="javascript:void(0);">@smith.joh</a>
+									</strong>
+								</aside>
+							</div>
+							<div class="col-12 col-sm-6 col-md-4 colXlDiv5">
+								<!-- pfbColumn -->
+								<aside class="pfbColumn position-relative w-100 text-white rounded-lg pt-10 px-4 pb-4 mb-6 wow fadeInUp" data-wow-delay="3s">
+									<i class="fab fa-linkedin-in position-absolute bg-warning rounded-circle d-flex align-items-center justify-content-center text-white icn wow bounceIn" data-wow-delay="3.5s"><span class="sr-only">icon</span></i>
+									<strong class="title d-block font-weight-normal mb-1">Linkedin</strong>
+									<strong class="d-block fwMedium">
+										<a href=="javascript:void(0);">linkedin/smith.joh</a>
+									</strong>
+								</aside>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<!-- ftAreaWrap -->
+		<div class="ftAreaWrap position-relative">
+			<!-- footerAside -->
+			<aside class="footerAside pt-6 pb-6 pt-md-10 pb-md-8 pt-lg-16 pb-lg-13 pt-xl-24 pb-xl-18 wow fadeIn">
+				<div id="contact" class="mt-n43 pt-43">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-5 col-xl-4">
+								<!-- extraWrap -->
+								<div class="extraWrap pr-lg-6 pr-xl-12 mb-5 mb-md-0">
+									<!-- ftLogo -->
+									<div class="ftLogo mb-7 mb-lg-12">
+										<a href=="javascript:void(0);">
+											<img src="images/logo.png" class="img-fluid" alt="scavvios">
+										</a>
+									</div>
+									<strong class="h2 d-block mb-4">UI/UX <span class="text-white">Designer</span></strong>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mattis tellus, non rutru m ante. Morbi sed ipsum cursus, blandit odio</p>
+									<!-- textCopyright -->
+									<div class="textCopyright pt-7 d-none d-md-block">
+										<p><strong class="fwMedium">&copy; <a href=="javascript:void(0);">SmithJohnson</a> 2020 | All Rights Reserved</strong></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 col-lg-7 col-xl-8">
+								<header class="mb-6 mb-lg-10">
+									<h2 class="text-capitalize">
+										<!-- headingTitle -->
+										<strong class="fwMedium d-block text-white position-relative headingTitle text-capitalize mb-3">Any Question?</strong>
+										<span class="d-block">Drop Me A Line</span>
+									</h2>
+								</header>
+								<!-- messageForm -->
+								<div class="messageForm">
+									<form id="contactForm" data-toggle="validator">
+										<div class="row">
+											<div class="col-12 col-sm-6">
+												<div class="form-group position-relative">
+													<input id="name" type="text" class="form-control w-100 d-block" required data-error="NEW ERROR MESSAGE">
+													<label class="labelAbsolute mb-0 font-weight-normal position-absolute">Name</label>
+												</div>
+											</div>
+											<div class="col-12 col-sm-6">
+												<div class="form-group position-relative">
+													<input id="email" type="email" class="form-control w-100 d-block" required data-error="NEW ERROR MESSAGE">
+													<label class="labelAbsolute mb-0 font-weight-normal position-absolute">Email</label>
+												</div>
+											</div>
+											<div class="col-12 col-sm-6">
+												<div class="form-group position-relative">
+													<input type="sub" type="text" class="form-control w-100 d-block" required data-error="NEW ERROR MESSAGE">
+													<label class="labelAbsolute mb-0 font-weight-normal position-absolute">Subject</label>
+												</div>
+											</div>
+											<div class="col-12 col-sm-6">
+												<div class="form-group position-relative">
+													<input type="tel" type="tel" class="form-control w-100 d-block" required data-error="NEW ERROR MESSAGE">
+													<label class="labelAbsolute mb-0 font-weight-normal position-absolute">Phone</label>
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="form-group position-relative">
+													<textarea id="message" class="form-control w-100 d-block textareaInput" required data-error="NEW ERROR MESSAGE"></textarea>
+													<label class="labelAbsolute mb-0 font-weight-normal position-absolute">Message</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-12">
+											<div id="msgSubmit" class="form-message hidden"></div>
+										</div>
+										<button id="form-submit" type="submit" class="btn btnThemeOutline position-relative btnMinSmall mt-4 mt-lg-8" data-hover="Send Message"><span class="d-block btnText">Send Message</span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- pageFooter -->
+			<footer id="pageFooter" class="bg-secondary pt-3 pb-1 position-relative text-center text-md-left wow fadeIn">
+				<div class="container">
+					<!-- ftNav -->
+					<nav class="ftNav">
+						<ul class="list-unstyled d-flex justify-content-center justify-content-md-start flex-wrap font-weight-normal text-uppercase mb-0">
+							<li>
+								<a href="#pageWrapper" class="smooth">Home</a>
+							</li>
+							<li>
+								<a href="#about" class="smooth">About</a>
+							</li>
+							<li>
+								<a href="#services" class="smooth">Services</a>
+							</li>
+							<li>
+								<a href="#works" class="smooth">Works</a>
+							</li>
+							<li>
+								<a href="#journey" class="smooth">Journey</a>
+							</li>
+							<li>
+								<a href="#blog" class="smooth">Blog</a>
+							</li>
+							<li>
+								<a href="#contact" class="smooth">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- textCopyright -->
+					<div class="textCopyright pt-4 d-md-none">
+						<p><strong class="fwMedium">&copy; <a href=="javascript:void(0);">SmithJohnson</a> 2020 | All Rights Reserved</strong></p>
+					</div>
+				</div>
+				<!-- btnTop -->
+				<a href="#pageWrapper" class="btnTop smooth fas fa-arrow-up d-none d-md-flex align-items-center justify-content-center bg-warning text-white position-absolute"><span class="sr-only">back to top</span></a>
+				<div id="loader" class="loader-holder">
+					<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<!-- include jQuery library -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- include bootstrap popper JavaScript -->
+	<script src="js/popper.min.js"></script>
+	<!-- include bootstrap JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- include custom JavaScript -->
+	<script src="js/jqueryCustom.js"></script>
+	<!-- include fontAwesome -->
+	<script src="https://kit.fontawesome.com/391f644c42.js"></script>
 </body>
-
 </html>
