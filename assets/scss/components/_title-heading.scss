@@ -1,0 +1,82 @@
+// -----------------------------------------------------------------------------
+// TITLE HEADING
+// -----------------------------------------------------------------------------
+.title__heading {
+	// border: 1px solid gray;
+	padding: 60px 0 40px 0;
+	position: relative;
+	@include mobile {
+		padding: 30px 0 20px 0;
+	}
+	&::before {
+		top: -30px;
+		content: attr(data-num);
+		font-weight: 900;
+		font-size: 13rem;
+		line-height: 1;
+		letter-spacing: 0.09em;
+		// letter-spacing: -0.045em;
+		color: rgb(37, 41, 49);
+		font-family: $text-font-paragraph;
+		text-transform: uppercase;
+		position: absolute;
+		// top: -0.25em;
+		// left: 4.4rem;
+
+		// color: black;
+		// -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: rgba(113, 113, 113, 0.09);
+		z-index: -1;
+		@include mobile {
+			font-size: 3.5rem;
+			top: -40px;
+		}
+		@include tablet {
+			font-size: 6rem;
+		}
+		@include desktop {
+			font-size: 6rem;
+		}
+		@include desktop-lg {
+			font-size: 10rem;
+		}
+	}
+}
+
+.page__caption {
+	h1 {
+		font-size: 80px;
+		font-weight: 800;
+		line-height: 76px;
+		text-transform: capitalize;
+		margin: 0;
+
+		span {
+			// -webkit-text-stroke: 1px #333;
+			// color: transparent;
+			// -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=63, Color=#000000)"; /*IE 8*/
+			// text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.4); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+			// filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color=#000000); /*IE 5.5-7*/
+		}
+		@include mobile {
+			font-size: 45px;
+			line-height: 50px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.page__desc {
+	h3 {
+		font-size: 24px;
+		line-height: 1.5;
+		font-weight: 500;
+		margin: 0;
+
+		@include mobile {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+	}
+}

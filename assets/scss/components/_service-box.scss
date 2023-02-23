@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// SERVICE BOX
+// -----------------------------------------------------------------------------
+.service__box {
+	margin-top: 70px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	// border: 1px solid #eee;
+	background: linear-gradient(201.69deg, #313844 -21.7%, #202329 141.87%);
+
+	&-icon {
+		position: absolute;
+		top: -35px;
+		background: linear-gradient(201.69deg, #313844 -21.7%, #202329 141.87%);
+		height: 70px;
+		width: 70px;
+		font-size: 26px;
+		color: $primary;
+		text-align: center;
+		z-index: 11;
+		margin-bottom: 15px;
+		line-height: 70px;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+		left: 50%;
+		margin-left: -35px;
+		// border-radius: 50%;
+	}
+	&-desc {
+		margin-top: 40px;
+		h5 {
+			color: $primary;
+			padding-top: 10px;
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 14px;
+			color: $white;
+		}
+	}
+}

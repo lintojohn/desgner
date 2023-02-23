@@ -1,0 +1,76 @@
+// -----------------------------------------------------------------------------
+// PROFILE AUTHOR
+// -----------------------------------------------------------------------------
+.wrap__profile {
+	border: 1px solid rgba(173, 181, 189, 0.14);
+	padding: 20px;
+	position: relative;
+	display: flex;
+
+	&-author {
+		// border: 1px solid gray;
+		display: flex;
+		@include mobile {
+			display: block;
+			text-align: center;
+		}
+		figure {
+			// border: 1px solid gray;
+			width: 150px;
+			height: auto;
+			display: block;
+			@include mobile {
+				max-width: 100%;
+				width: 100%;
+				text-align: center;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+				object-fit: cover;
+				position: relative;
+				// border: 1px solid gray;
+			}
+		}
+		&-detail {
+			// border: 1px solid gray;
+			float: left;
+			@include tablet {
+				margin-left: 10px;
+			}
+			&-name {
+				// border: 1px solid gray;
+				color: $primary;
+				text-transform: uppercase;
+
+				letter-spacing: 1px;
+				font-family: $text-font-paragraph;
+				font-size: 12px;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+			h4 {
+				color: $white;
+				text-transform: capitalize;
+				@include mobile {
+					font-size: 18px;
+				}
+			}
+			p {
+			}
+			.list-inline {
+				margin: 0;
+				.list-inline-item {
+					// border: 1px solid gray;
+					.btn-social.telegram {
+						background: #179cde;
+						&:hover {
+							background: transparent;
+							color: #179cde;
+						}
+					}
+				}
+			}
+		}
+	}
+}

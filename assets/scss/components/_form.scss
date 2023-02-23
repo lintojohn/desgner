@@ -1,0 +1,85 @@
+// -----------------------------------------------------------------------------
+// FORM
+// -----------------------------------------------------------------------------
+.section__form {
+	position: relative;
+	z-index: 1;
+	h2 {
+		text-transform: capitalize;
+		color: $primary;
+		@include mobile {
+			font-size: 24px;
+		}
+	}
+	&::before {
+		position: absolute;
+		content: "";
+		top: 40%;
+		left: calc(50% - 215px);
+		height: 60%;
+		width: 20%;
+		background-image: url("../../images/dot-light.png");
+		background-size: 10px;
+		opacity: 0.5;
+		pointer-events: none;
+		z-index: -1;
+	}
+	&::after {
+		top: 10%;
+		right: 30%;
+		@include mobile {
+			top: 5%;
+		}
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		background-image: url("../../images/ornament4.png");
+		background-repeat: no-repeat;
+		width: 40px;
+		height: 60px;
+		z-index: 1;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	h4 {
+		color: $white;
+		margin-bottom: 15px;
+		text-transform: capitalize;
+	}
+	p {
+		color: $gray;
+		line-height: 1.7;
+		margin-bottom: 30px;
+
+		a {
+			text-decoration: underline !important;
+		}
+	}
+	.list-inline {
+		&-item {
+			a {
+				font-size: 24px;
+				letter-spacing: 15px;
+			}
+		}
+	}
+
+	.form-group {
+		z-index: 2;
+		label {
+			color: $white;
+		}
+		.form-control {
+			border: 2px solid rgba(255, 195, 29, 0.39);
+			background-color: #1f2430;
+			color: $gray;
+			box-shadow: none;
+		}
+	}
+	.btn-lg {
+		padding: 1rem 3rem;
+		font-weight: 700;
+		text-transform: capitalize;
+	}
+}

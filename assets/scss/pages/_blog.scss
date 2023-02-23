@@ -1,0 +1,222 @@
+// -----------------------------------------------------------------------------
+// BLOG
+// -----------------------------------------------------------------------------
+.section__blog {
+	position: relative;
+	z-index: 1;
+	h2 {
+		@include mobile {
+			font-size: 24px;
+		}
+	}
+	&::before {
+		top: 13%;
+		right: 48%;
+		@include mobile {
+			right: 38%;
+			top: 7%;
+		}
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		background: #ffc31d;
+		opacity: 0.1;
+		z-index: 0;
+		border-radius: 50%;
+		pointer-events: none;
+	}
+	&::after {
+		top: 7%;
+		left: 10%;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		background-image: url("../../images/ornament3.png");
+		background-repeat: no-repeat;
+		width: 240px;
+		height: 230px;
+		z-index: 1;
+	}
+}
+
+.article__entry-new {
+	position: relative;
+	margin-bottom: 30px;
+	@include mobile {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.article__category {
+		// position: relative;
+		// font-weight: 700;
+		// letter-spacing: 0.5px;
+		// text-transform: capitalize;
+		// top: 45px;
+		// left: 15px;
+		// z-index: 1;
+		// color: $white;
+		// background-color: $primary;
+		// text-align: center;
+		// clear: both;
+		// display: inline-block;
+		// font-size: 12px;
+		// padding: 4px 14px;
+		// line-height: 22px;
+
+		position: relative;
+		top: 45px;
+		left: 15px;
+		z-index: 1;
+		clear: both;
+		color: #252931;
+		font-weight: 600;
+		display: inline-block;
+		font-size: 11px;
+		padding: 4px 10px;
+		background-color: $primary;
+		letter-spacing: 0.5px;
+		line-height: 18px;
+		text-transform: uppercase;
+		font-family: $text-font-paragraph;
+	}
+	.article__image {
+		position: relative;
+		overflow: hidden;
+	}
+	.articel__content {
+		padding: 15px 0 0;
+		// margin: -40px 30px 0px 0px;
+		position: relative;
+		// background-color: #fff;
+		// height: 30vh;
+		// display: flex;
+		// flex-direction: column;
+		// flex: 1 0 auto;
+
+		.title-lg {
+			h4 {
+				font-size: 24px;
+				@include mobile {
+					font-size: 18px;
+				}
+			}
+		}
+		.article__post__title {
+			h4 {
+				a {
+					color: $black;
+					&:hover {
+						text-decoration: none;
+						color: $primary;
+					}
+				}
+			}
+			h5 {
+				margin-bottom: 10px;
+				a {
+					overflow: hidden;
+
+					color: $white;
+					&:hover {
+						text-decoration: none;
+						color: $primary;
+						transition: all 0.3s;
+					}
+				}
+			}
+			p {
+				color: $gray-500;
+				font-size: 14px;
+				line-height: 1.7;
+				margin-bottom: 0;
+			}
+		}
+		.article__post__author {
+			margin-bottom: 5px;
+			li {
+				span {
+					color: $white;
+					font-size: 13px;
+					font-weight: 700;
+					text-transform: capitalize;
+					font-family: $text-font-paragraph;
+					b {
+						color: $primary;
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+}
+
+.article__entry-new .articel__image__transition img {
+	-webkit-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.article__entry-new .articel__image__transition:hover img {
+	transform: scale3d(1.1, 1.1, 1);
+	-webkit-transform: scale3d(1.1, 1.1, 1);
+	-moz-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+	-webkit-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.image-sm:hover,
+.article__image:hover {
+	opacity: 0.84;
+}
+
+.section__blog-post .owl-nav {
+	display: block !important;
+}
+.section__blog-post .owl-nav button.owl-prev {
+	position: absolute;
+	left: -5%;
+	top: 50%;
+	background-color: $primary;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	outline: none;
+	color: $black;
+	@include mobile {
+		display: none;
+	}
+	@include tablet {
+		display: none;
+	}
+	@include desktop {
+		display: none;
+	}
+}
+
+.section__blog-post .owl-nav button.owl-next {
+	position: absolute;
+	right: -5%;
+	top: 50%;
+	background-color: $primary;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	outline: none;
+	color: $black;
+	@include mobile {
+		display: none;
+	}
+	@include tablet {
+		display: none;
+	}
+	@include desktop {
+		display: none;
+	}
+}

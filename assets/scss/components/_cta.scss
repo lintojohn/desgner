@@ -1,0 +1,80 @@
+// -----------------------------------------------------------------------------
+// CALL TO ACTIONS
+// -----------------------------------------------------------------------------
+.section__cta {
+	position: relative;
+	&::before {
+		top: 4%;
+		right: 10%;
+		@include mobile {
+			top: -7%;
+		}
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		background-image: url("../../images/ornament4.png");
+		background-repeat: no-repeat;
+		width: 40px;
+		height: 60px;
+		z-index: 1;
+	}
+	.section__cta-panel {
+		display: flex;
+		border-radius: 6px;
+		padding: 40px;
+		// background: linear-gradient(114.78deg, #3a3a3a -21.54%, #262626 151.2%);
+		background: linear-gradient(201.69deg, #313844 -21.7%, #202329 141.87%);
+		@include mobile {
+			display: block;
+			padding: 20px;
+		}
+		@include tablet {
+			padding: 20px;
+			display: block;
+		}
+		h4 {
+			color: $white;
+			padding-top: 10px;
+			text-align: center;
+			@include mobile {
+				font-size: 20px;
+				padding-top: 0;
+			}
+		}
+		.list-inline {
+			margin: 0;
+			padding: 0;
+			@include tablet {
+				text-align: center;
+			}
+			&-item {
+				a {
+					font-weight: 700;
+					text-transform: capitalize;
+					padding: 1rem 3rem;
+					@include mobile {
+						margin-top: 10px;
+						padding: 1.2em 0.5em 1.2em 0.5em;
+						width: 146px;
+					}
+					@include tablet {
+						margin-top: 10px;
+						padding: 1.2em 0.5em 1.2em 0.5em;
+						width: 146px;
+					}
+				}
+			}
+		}
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		bottom: 30%;
+		background-color: #f8f9fa;
+		z-index: -1;
+	}
+}

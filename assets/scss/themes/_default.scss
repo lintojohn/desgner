@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// Default theme
+// -----------------------------------------------------------------------------
+
+@charset 'UTF-8';
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": #2d343e,
+    "dark": #111111,
+    "light": #f1f5f5,
+);
+$enable-rounded: false;
+// @import "~bootstrap/scss/bootstrap";
