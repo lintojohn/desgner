@@ -68,18 +68,18 @@
 				<div class="menu"> <!-- menu start -->
 					<ul> <!-- 1st ul -->
 						<li> 
-							<a href="#" class="curent-multi-page">home</a> <!-- main links -->
+							<a href="#">home</a> <!-- main links -->
 							<ul class="normal-sub"> 
 								<li><a href="index.html">portfolio home</a></li>
 								<li><a href="index1.html">creative agency</a></li>
 								<li><a href="index2.html">studio case study</a></li>
-								<li><a href="index3.html" class="curent-multi-page">freelance designer</a></li>
+								<li><a href="index3.html">freelance designer</a></li>
 								<li><a href="index4.html">video production</a></li>
 								<li><a href="index5.html">creative shop</a></li>
 							</ul> 
 						</li>	
 						<li>
-							<a href="#">work</a> <!-- main links -->
+							<a href="#" class="curent-multi-page">work</a> <!-- main links -->
 							<ul>
 								<li><p>masonry style</p> <!-- text with border bottom over links -->
 									<ul>
@@ -115,7 +115,7 @@
 									<ul>
 										<li><a href="gallery-two-col.html">two columns</a></li>
 										<li><a href="gallery-three-col.html">three columns</a></li>
-										<li><a href="gallery-four-col.html">four columns</a></li>
+										<li><a href="gallery-four-col.html" class="curent-multi-page">four columns</a></li>
 										<li><a href="gallery-two-col-wide.html">two columns wide <span>hot</span></a></li>
 										<li><a href="gallery-three-col-wide.html">three columns wide</a></li>
 										<li><a href="gallery-four-col-wide.html">four columns wide</a></li>
@@ -187,110 +187,115 @@
 	<!-- Page Layout 
 	================================================== -->
 
-		<div class="section full-home-height" id="home">
+		<div class="section half-height" id="home">
 			<div class="parallax-home" style="background-image: url('images/parallax-home-dark.jpg')"></div>
 			
 			<div class="home-text-freelance z-bigger">
 				<div class="container fade-elements">
 					<div class="twelve columns">
-						<h1>the best way to predict the future<br><span>is to create it</span></h1>
+						<div class="section-title title-page-sec fade-elements">
+							<div class="shadow-title">our work</div>	
+							<h3>projects</h3>
+							<p>Always strive for better work</p>
+						</div>	
 					</div>
 				</div>
 			</div>
 			
-			<a href="#scroll-from-top" data-gal="m_PageScroll2id" data-ps2id-offset="78"><div class="link-down fade-elements"></div></a>	
 		</div>
 		
 		
-
-			<div class="section" id="scroll-from-top">
+		<div class="section">
+			<div class="parallax-home" style="background-image: url('images/parallax-home-dark.jpg')"></div>
 					
 				<div class="clear"></div>
 
-				<div class="section">
+				<div class="section z-bigger padding-bottom">
 					<div id="portfolio-filter" class="portfolio-filter">
 						<ul id="filter">
 							<li><a href="#" class="current" data-filter="*" title="">all</a></li>
 							<li class="tipped" data-title="3 projects" data-tipper-options='{"direction":"top","follow":"true"}'><a href="#" data-filter=".branding" title="">branding</a></li>
-							<li class="tipped" data-title="3 projects" data-tipper-options='{"direction":"top","follow":"true"}'><a href="#" data-filter=".photo" title="">photo</a></li>
-							<li class="tipped" data-title="4 projects" data-tipper-options='{"direction":"top","follow":"true"}'><a href="#" data-filter=".motion" title="">motion</a></li>
+							<li class="tipped" data-title="4 projects" data-tipper-options='{"direction":"top","follow":"true"}'><a href="#" data-filter=".photo" title="">photo</a></li>
+							<li class="tipped" data-title="5 projects" data-tipper-options='{"direction":"top","follow":"true"}'><a href="#" data-filter=".motion" title="">motion</a></li>
 						</ul>
 					</div>
 					
-					<div id="projects-grid">
-						<a href="project.html">
-							<div class="portfolio-box-1 branding">
-								<div class="mask"></div>
-								<h3><span>branding</span><br>project name</h3>
+					<div id="projects-grid" class="in-container">
+						<a href="images/portfolio/1.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space branding">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/1.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 photo">
-								<div class="mask"></div>
-								<h3><span>photo</span><br>project name</h3>
+						<a href="images/portfolio/2.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space photo">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/2.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 motion">
-								<div class="mask"></div>
-								<h3><span>motion</span><br>project name</h3>
+						<a href="images/portfolio/3.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space motion">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/3.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 branding">
-								<div class="mask"></div>
-								<h3><span>branding</span><br>project name</h3>
+						<a href="images/portfolio/4.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space branding">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/4.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 photo">
-								<div class="mask"></div>
-								<h3><span>photo</span><br>project name</h3>
+						<a href="images/portfolio/5.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space photo">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/5.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 motion">
-								<div class="mask"></div>
-								<h3><span>motion</span><br>project name</h3>
-								<img src="images/portfolio/6.jpg" alt="">
+						<a href="images/portfolio/12.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space motion">
+								<div class="mask gallery-mask"></div>
+								<img src="images/portfolio/12.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 motion">
-								<div class="mask"></div>
-								<h3><span>motion</span><br>project name</h3>
+						<a href="images/portfolio/11.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space photo">
+								<div class="mask gallery-mask"></div>
+								<img src="images/portfolio/11.jpg" alt="">
+							</div>
+						</a>
+						<a href="images/portfolio/10.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space photo">
+								<div class="mask gallery-mask"></div>
+								<img src="images/portfolio/10.jpg" alt="">
+							</div>
+						</a>
+						<a href="images/portfolio/7.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space motion">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/7.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 branding">
-								<div class="mask"></div>
-								<h3><span>branding</span><br>project name</h3>
+						<a href="images/portfolio/8.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space branding">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/8.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 motion">
-								<div class="mask"></div>
-								<h3><span>motion</span><br>project name</h3>
+						<a href="images/portfolio/9.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space motion">
+								<div class="mask gallery-mask"></div>
 								<img src="images/portfolio/9.jpg" alt="">
 							</div>
 						</a>
-						<a href="project.html">
-							<div class="portfolio-box-1 photo">
-								<div class="mask"></div>
-								<h3><span>photo</span><br>project name</h3>
-								<img src="images/portfolio/10.jpg" alt="">
+						<a href="images/portfolio/6.jpg" class="fancybox">
+							<div class="portfolio-box-1 quarter-width have-space motion">
+								<div class="mask gallery-mask"></div>
+								<img src="images/portfolio/6.jpg" alt="">
 							</div>
 						</a>
 					</div>
 				</div>	
-			<div class="section back-black padding-top-bottom-small">
+			<div class="section back-black padding-top-bottom-small z-bigger">
 				<div class="container z-bigger">
 					<div class="twelve columns">
 						<div id="owl-logos" class="owl-carousel owl-theme">											 
@@ -334,138 +339,6 @@
 					</div>
 				</div>
 			</div>	
-		</div>
-		
-		
-		<div class="section back-dark">	
-			<div class="freel-wrap min-full-height">
-				<div class="freel-wrapper min-full-height" style="background-image: url(images/freel.jpg);"></div>
-				<div class="freel-wrapper min-full-height">
-					<div class="freel-wrapper-services">
-						<div class="freel-wrapper-services-in">
-							<div class="about-wrap">
-								<div class="about-icon">
-									<svg version="1.1" id="svg-icon-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="48px" height="48px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-									<g>
-										<rect x="1" y="16" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="52" height="40"/>
-									</g>
-									<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="10,14 10,8 63,8 63,48 55,48 "/>
-									<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="1,46 15,32 29,48 39,42 53,54 "/>
-									<circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="40" cy="29" r="5"/>
-									</svg>							
-								</div>
-								<h5 data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">branding.</h5>
-								<p data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">Proin fringilla augue at maximus vestibul neque et porttitor.</p>
-							</div>
-						</div>
-					</div>
-					<div class="freel-wrapper-services">
-						<div class="freel-wrapper-services-in">
-							<div class="about-wrap">
-								<div class="about-icon">
-									<svg version="1.1" id="svg-icon-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="48px" height="48px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="16" y1="24" x2="38" y2="24"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="16" y1="34" x2="38" y2="34"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="16" y1="44" x2="38" y2="44"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="16" y1="54" x2="38" y2="54"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="12" y1="24" x2="8" y2="24"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="12" y1="34" x2="8" y2="34"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="12" y1="44" x2="8" y2="44"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="12" y1="54" x2="8" y2="54"/>
-									<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="14,8 1,8 1,63 45,63 45,8 32,8 "/>
-									<polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="27,5 27,1 19,1 19,5 15,5 13,13 33,13 31,5 
-										"/>
-									<polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="55,1 55,54 59,62 63,54 63,1 "/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="55" y1="11" x2="63" y2="11"/>
-									</svg>							
-								</div>
-								<h5 data-scroll-reveal="enter bottom move 30px over 1s after 0.5s">development.</h5>
-								<p data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">Proin fringilla augue at maximus vestibul neque et porttitor.</p>
-							</div>
-						</div>
-					</div>
-					<div class="freel-wrapper-services">
-						<div class="freel-wrapper-services-in">
-							<div class="about-wrap">
-								<div class="about-icon">
-									<svg version="1.1" id="svg-icon-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="48px" height="48px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-									<rect x="1" y="7" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="62" height="50"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="1" y1="15" x2="63" y2="15"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="10" y1="11" x2="6" y2="11"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="18" y1="11" x2="14" y2="11"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="26" y1="11" x2="22" y2="11"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="25" x2="33" y2="25"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="33" x2="33" y2="33"/>
-									<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="41" x2="33" y2="41"/>
-									<rect x="38" y="25" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="19" height="16"/>
-									</svg>							
-								</div>
-								<h5 data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">web design.</h5>
-								<p data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">Proin fringilla augue at maximus vestibul neque et porttitor.</p>
-							</div>
-						</div>
-					</div>
-					<div class="freel-wrapper-services">
-						<div class="freel-wrapper-services-in">
-							<div class="about-wrap">
-								<div class="about-icon">
-									<svg version="1.1" id="svg-icon-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48"><g  transform="translate(0, 0)">
-									<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="31" y1="35" x2="45" y2="35" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="31" y1="10" x2="45" y2="10" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<polygon fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="45,35 38,44 31,35 &#10;&#9;31,2 45,2 " stroke-linejoin="miter"/>
-									<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="4" y1="12" x2="12" y2="12" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="4" y1="20" x2="10" y2="20" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="4" y1="28" x2="12" y2="28" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" x1="4" y1="36" x2="10" y2="36" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<rect x="4" y="2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="16" height="44" stroke-linejoin="miter"/>
-									</g>
-									</svg>						
-								</div>
-								<h5 data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">graphic design.</h5>
-								<p data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">Proin fringilla augue at maximus vestibul neque et porttitor.</p>
-							</div>
-						</div>
-					</div>
-					<div class="freel-wrapper-services">
-						<div class="freel-wrapper-services-in">
-							<div class="about-wrap">
-								<div class="about-icon">	
-									<svg version="1.1" id="svg-icon-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48"><g  transform="translate(0, 0)">
-									<circle data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="24" cy="16" r="14" stroke-linejoin="miter"/>
-									<circle fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="16" cy="32" r="14" stroke-linejoin="miter"/>
-									<circle fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="32" cy="32" r="14" stroke-linejoin="miter"/>
-									</g>
-									</svg>						
-								</div>
-								<h5 data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">social media.</h5>
-								<p data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">Proin fringilla augue at maximus vestibul neque et porttitor.</p>
-							</div>
-						</div>
-					</div>
-					<div class="freel-wrapper-services">
-						<div class="freel-wrapper-services-in">
-							<div class="about-wrap">
-								<div class="about-icon">
-									<svg version="1.1" id="svg-icon-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48"><g  transform="translate(0, 0)">
-									<path fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M28,44H6&#10;&#9;c-1.105,0-2-0.895-2-2V4c0-1.105,0.895-2,2-2h28c1.105,0,2,0.895,2,2v14" stroke-linejoin="miter"/>
-									<line fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="18" y1="38" x2="22" y2="38" stroke-linejoin="miter"/>
-									<polyline data-cap="butt" fill="none" stroke="#444444" stroke-width="2" stroke-miterlimit="10" points="28,32 10,32 10,8 30,8 30,18 &#10;&#9;" stroke-linejoin="miter" stroke-linecap="butt"/>
-									<path data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M42,46H30&#10;&#9;c-1.105,0-2-0.895-2-2V20c0-1.105,0.895-2,2-2h12c1.105,0,2,0.895,2,2v24C44,45.105,43.105,46,42,46z" stroke-linejoin="miter"/>
-									<line data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="28" y1="38" x2="44" y2="38" stroke-linejoin="miter"/>
-									<line data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="28" y1="24" x2="44" y2="24" stroke-linejoin="miter"/>
-									</g>
-									</svg>						
-								</div>
-								<h5 data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">app & iOS.</h5>
-								<p data-scroll-reveal="enter bottom move 30px over 1s after 0.3s">Proin fringilla augue at maximus vestibul neque et porttitor.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 
 		
@@ -561,7 +434,7 @@
 <script type="text/javascript" src="js/plugins.js"></script>
 <script type="text/javascript" src="js/masonry.js"></script> 
 <script type="text/javascript" src="js/isotope.js"></script>
-<script type="text/javascript" src="js/custom-home3.js"></script>    
+<script type="text/javascript" src="js/custom-gallery-four-col.js"></script>    
 <!-- End Document
 ================================================== -->
 </body>
